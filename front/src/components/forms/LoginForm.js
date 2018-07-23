@@ -75,7 +75,6 @@ class LoginForm extends React.Component {
                             name="email"
                             placeholder="Email"
                             bsSize="sm"
-                            defaultValue="dawid.smoter@wp.pl"
                             onChange={this.onChange}
                         />
                         { errors.email && <FormFeedback>{ errors.email }</FormFeedback> }
@@ -91,7 +90,6 @@ class LoginForm extends React.Component {
                             name="password"
                             bsSize="sm"
                             placeholder="Password"
-                            defaultValue="asd"
                             onChange={this.onChange}
                         />
                         { errors.password && <FormFeedback>{ errors.password }</FormFeedback> }
